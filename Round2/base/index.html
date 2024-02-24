@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon-32x32.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== REMIX ICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>product landing page</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="www.cisco.com" class="nav__logo">
+          <img src="assets/img/cisco-bg.png" alt="" />
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#specs" class="nav__link">Key Features</a>
+            </li>
+            <li class="nav__item">
+              <a href="#case" class="nav__link">Benefits</a>
+            </li>
+            <!-- <li class="nav__item">
+              <a href="#products" class="nav__link">Products</a>
+            </li> -->
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-function-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!--=============== HOME ===============-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div>
+            <img src="assets/img/main.png" alt="" class="home__img" />
+          </div>
+
+          <div class="home__data">
+            <div class="home__header">
+              <!-- thing to change --------- -->
+              <!-- <h1 class="home__title">cloud</h1> -->
+              <!-- thing to change --------- -->
+              <h2 class="home__subtitle">CX Cloud</h2>
+            </div>
+
+            <div class="home__footer">
+              <h3 class="home__title-description">
+                Your digital gateway to real business value
+              </h3>
+              <p class="home__description">
+                We drive business outcomes faster with human and digital
+                intelligence. Learn how Don Cheney at Washington Trust Bank was
+                able to accelerate projects to enable more time for innovation.
+              </p>
+
+              <a href="#" class="button button--flex">
+                <i class="ri-arrow-right-fill"></i>Try Now
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== SPONSOR ===============-->
+      <section class="sponsor section">
+        <div class="sponsor__container container grid">
+          <img src="assets/img/equalit.png" alt="" class="sponsor__img" />
+          <img
+            src="assets/img/wash.png"
+            alt=""
+            class="sponsor__img"
+          />
+          <img src="assets/img/generali.png" alt="" class="sponsor__img" />
+        </div>
+      </section>
+
+      <!--=============== SPECS ===============-->
+      <section class="specs section grid" id="specs">
+        <h2 class="section__title section__title-gradient">Key Features</h2>
+
+        <div class="specs__container container grid">
+          <div class="specs__content grid">
+            <div class="specs__data">
+              <i class="ri-speed-line"></i>
+              <h3 class="specs__title">Asset Management</h3>
+              <span class="specs__subtitle"
+                >Track and manage all Cisco devices, software, and contracts in
+                one place.</span
+              >
+            </div>
+
+            <div class="specs__data">
+              <i class="ri-arrow-up-line"></i>
+              <h3 class="specs__title">Performance Monitoring</h3>
+              <span class="specs__subtitle"
+                >Real-time insights into network, security, and application
+                performance.</span
+              >
+            </div>
+
+            <div class="specs__data">
+              <i class="ri-tools-line"></i>
+              <h3 class="specs__title">Analytics and Reporting</h3>
+              <span class="specs__subtitle"
+                >Generate customizable reports, identify trends, predict
+                potential issues.
+              </span>
+            </div>
+
+            <div class="specs__data">
+              <i class="ri-service-line"></i>
+              <h3 class="specs__title">Automation</h3>
+              <span class="specs__subtitle"
+                >Automate routine tasks and workflows, reduce manual
+                effort.</span
+              >
+            </div>
+          </div>
+
+          <div>
+            <img src="assets/img/specs.png" alt="" class="specs__img" />
+          </div>
+        </div>
+      </section>
+
+      <!--  ------------------benefits------------ -->
+      <section class="case section grid" id="case">
+        <h2 class="section__title section__title-gradient">Benefits</h2>
+
+        <div class="case__container container grid">
+          <div>
+            <img src="assets/img/sucess.png" alt="" class="case__img" />
+          </div>
+
+          <div class="case__data">
+            <p class="case__description">
+              Gain real-time insights, automate tasks, deploy and optimize Cisco
+              solutions, enhance security, and reduce costs for your IT
+              environment with simplified management, faster time to value, and
+              proactive threat prevention.
+            </p>
+            <a
+              href="https://www.cisco.com/site/us/en/services/cx-cloud/index.html"
+              class="button button--flex"
+            >
+              <i class="ri-information-line button__icon"></i> More info
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-------------------------- sucess tracks---------- -->
+      <section class="discount section">
+        <div class="discount__container container grid">
+          <div class="discount__animate">
+            <h2 class="discount__title">
+              Digital platform <br />
+              for Success Tracks
+            </h2>
+            <p class="discount__description">
+              With Cisco Success Tracks you can unlock the full value of your
+              technology investments with expertise, insights, learning, and
+              support all in one packaged service.
+            </p>
+            <a
+              href="https://www.cisco.com/site/us/en/services/success-tracks/index.html"
+              class="button button--flex"
+            >
+              <i class="ri-arrow-right-fill"></i>Explore Success Tracks
+            </a>
+          </div>
+
+          <img src="assets/img/cx.png" alt="" class="discount__img" />
+        </div>
+      </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <a
+          href="https://www.cisco.com/site/us/en/services/cx-cloud/index.html"
+          class="footer__logo"
+        >
+          <img src="assets/img/cisco-bg.png" alt="" />
+        </a>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Products</h3>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">About Cisco</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Cisco +</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">IOS and NX-OS</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">CISCO DNA </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Support</h3>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">About Cisco</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Contact US</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Careers</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Connect with Partner</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <form action="" class="footer__form">
+            <input type="email" placeholder="Email" class="footer__input" />
+            <button class="button button--flex">
+              <i class="ri-send-plane-line button__icon"></i> Subscribe
+            </button>
+          </form>
+
+          <div class="footer__social">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="ri-facebook-fill"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="ri-instagram-line"></i>
+            </a>
+            <a
+              href="https://twitter.com/"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="ri-twitter-line"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <p class="footer__copy">
+        <a
+          href="https://www.cisco.com/"
+          target="_blank"
+          class="footer__copy-link"
+          >&#169; Cisco | All right reserved</a
+        >
+      </p>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-s-line scrollup__icon"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
