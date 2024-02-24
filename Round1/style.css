@@ -40,12 +40,14 @@ body {
     width: 74px;
     height: 74px;
     border-radius: 100%;
-    box-shadow: inset 1px 1px 12px 0px hsla(256, 72%, 46%, 1);
+    box-shadow: inset 1px 1px 10px 0px hsl(256, 72%, 46%, 1);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     margin: 0 auto;
+    background: bottom linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+
   }
   .big-score {
     color: #fff;
@@ -98,6 +100,7 @@ body {
     background-color: hsl(224, 30%, 27%);
     width: 100%;
     border-radius: 20px;
+    cursor: pointer;
     background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 
   }
