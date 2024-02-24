@@ -10,7 +10,9 @@ body {
     min-height: 100vh;
     font-family: hg;
   }
-  
+  *{
+    font-family: hg;
+  }
 
   .container {
     display: flex;
