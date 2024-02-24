@@ -1,11 +1,17 @@
+
+@font-face {
+  font-family: hg ;
+  src: url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    font-family: sans-serif;
+    font-family: hg;
   }
   
+
   .container {
     display: flex;
     width: 600px;
